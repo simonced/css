@@ -1,0 +1,307 @@
+html {
+	background: #FDF6E3;
+}
+
+@media screen {
+	body::after {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		content: "Last Stylesheet Update: 2015-09-26";
+		font-size: smaller;
+		/* font-style: italic; */
+		padding: 0.5em;
+		background: #586E75;
+		color: #EEE8D5;
+		border-top-left-radius: 10px;
+	}
+}
+
+body{
+    /* margin: 0 auto; */
+    /* padding: 0 30px; */
+    margin: 0;
+    padding: 0 1em;
+    /* font-family: Georgia, Palatino, serif; */
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #586E75;
+    /* line-height: 1.2; */
+    max-width: 960px;
+}
+
+/* START OF TITILES */
+h1, h2, h3, h4, h5, h6 {
+    /* color: #073642; */
+   	/* color: #b45944; */
+	color: #586E75;
+}
+h2, h3, h4, h5, h6 {
+	/* padding: 10px 5px 5px 10px; */
+	padding: 0 0 0 10px;
+	background: #eee8d5;
+}
+h2::before, h3::before, h4::before, h5::before, h6::before
+{
+	color: #FDF6E3;
+}
+
+p {
+    padding: 0;
+}
+
+/* specs top for titles */
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+    /* The bottom margin is small. It's designed to be used with gray meta text
+     * below a post title. */
+    margin: 24px 0 6px;
+	/* border-left: 10px solid #eee8d5; */
+}
+h3 {
+    font-size: 24px;
+	/* border-left: 20px solid #eee8d5; */
+}
+h4 {
+    font-size: 21px;
+	/* border-left: 30px solid #eee8d5; */
+}
+h5 {
+    font-size: 18px;
+	/* border-left: 40px solid #eee8d5; */
+}
+/* END OF TITLES */
+
+/* center blocks are for my own notes */
+.center p {
+	border: 20px solid #B58900;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	
+	color: #B58900;
+	padding: 10px;
+	background-color: #002B36;
+	border-radius: 10px;
+	/* box-shadow: 0 0 10px #002B36; */
+}
+
+b, strong {
+	color: #B58900;
+}
+i, em {
+	color:#528645;
+}
+a,
+a:visited {
+    color: #d33682;
+	text-decoration: none;
+	outline: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+ul, ol {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+li {
+    line-height: 1.5em;
+}
+dd {
+	margin-top: 0.5em;
+	margin-bottom: 0.75em;
+	line-height: 1.5em;
+}
+
+dd pre {
+	margin: 0;
+}
+
+pre, code {
+    background-color:#333;
+    color:#ddd;
+}
+pre {
+	border: none;
+    white-space: pre-wrap;
+    padding: 0.5em;
+    border-radius:0.5em;
+	line-height: 1.3em;
+	box-shadow: none;
+}
+pre.src {
+	padding: 0.5em;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: inherit;
+    padding: 0 0.5em;
+	border-radius:0.3em;
+}
+p>code {
+	line-height:1.5em;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+
+/* outlines */
+
+.outline-3,
+.outline-4 {
+	padding-left: 2em;
+}
+
+/* blockquote */
+
+blockquote {
+    border-left:.5em solid #eee8d5;
+    padding: 0 2em;
+    margin-left:0;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#B58900;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+}
+
+u, .underline {
+	text-decoration: none;
+	border-bottom: 1px dotted #666;
+}
+
+hr {
+    text-align: left;
+    margin: 1em auto 1em auto;
+    border: none;
+    height: 5px;
+    background: #eee8d5;
+}
+
+sup {
+  color: #93A1A1;
+  font-weight: normal;
+}
+
+.todo, .done {
+	font-family: monospace;
+}
+.todo.WIP {
+	color: orange;
+}
+
+table {
+	border-collapse:collapse;
+}
+table,
+table thead {
+	border-top: none;
+}
+table th, table td {
+	padding:5px;
+	border-left: 1px dotted black;
+}
+
+table th:first,
+table td:first {
+	border-left: none;
+}
+
+table th {
+	font-weight:bold;
+	border-bottom:2px solid black;
+}
+table td {
+	border-top:1px solid black;
+}
+
+table td i,
+table td b,
+table td u {
+	white-space: nowrap;
+}
+
+img {
+	/* background:white; */
+	/* margin:5px; */
+	/* padding:10px; */
+	box-shadow:0 0 10px #c9aa5c;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* org-mode styles */
+h1.title {
+	margin-top: 0;
+	padding-top: 15px;
+}
+
+.figure {
+	padding: 0;
+}
+
+#table-of-contents {
+	background: #eee8d5;
+	padding-bottom: 10px;
+	font-size: smaller;
+}
+#table-of-contents .todo,
+#table-of-contents .done {
+	font-size: large;
+	font-weight: bold;
+}
+
+#table-of-contents h2 {
+	margin-top: 0;
+}
+
+#content {
+	/* box-shadow: 0 0 10px #EEE8D5; */
+	/* padding: 0 1em 1em 1em; */
+    background:#FDF6E3;
+}
+
+.status {
+	margin-top: 1em;
+	font-style: italic;
+}
+
+/* htmlize related */
+.org-comment,
+.org-comment-delimiter {
+	color: #999;
+}
+
+.org-keyword {
+	font-weight: bold;
+	color: #77ABD0;
+}
+
+.org-string {
+	color: #D26C9D;
+}
+
+.org-constant {
+	color: #829120;
+	font-weight: bold;
+}
+
+.org-variable-name {
+	color: #61A09B;
+}
