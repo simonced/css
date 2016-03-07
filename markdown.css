@@ -273,6 +273,14 @@ h1.title {
 	font-weight: bold;
 }
 
+#table-of-contents li {
+	clear: both;
+}
+#table-of-contents .tag {
+	padding: 1px;
+	margin-bottom: 2px;
+}
+
 #table-of-contents h2 {
 	margin-top: 0;
 }
