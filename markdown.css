@@ -17,7 +17,7 @@ html {
 	}
 }
 
-body{
+body {
     /* margin: 0 auto; */
     /* padding: 0 30px; */
     margin: 0;
@@ -199,11 +199,17 @@ sup {
   font-weight: normal;
 }
 
-.todo, .done {
+/* tags and todos */
+.todo,
+.done {
 	font-family: monospace;
 }
 .todo.WIP {
 	color: orange;
+}
+
+.tag {
+	float: right;
 }
 
 table {
