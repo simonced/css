@@ -1,0 +1,165 @@
+body {
+	background-color: #FCFCFC;
+	color: #565656;
+	margin: 0;
+	padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#content {
+	margin: auto;
+}
+
+/* responsive rules */
+/* @media screen and (max-width: 1000px) {
+   #content {
+   margin: 0 10px;
+   }
+   } */
+
+h1.title {
+	margin: 0;
+	height: 75px;
+	line-height: 75px;
+	color: white;
+	background: #36404B;
+}
+
+h2 {
+	/* margin-top: 0; */
+	margin: 0;
+}
+
+/* basic */
+
+a {
+	color: #F55043;
+}
+
+b {
+	color: #65BE3E;
+}
+
+/* pics related */
+dl img,
+p img,
+.figure object[type="image/svg+xml"],
+.figure img {
+	border: 2px solid #65BE3E;
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+.figure object[type="image/svg+xml"] {
+	padding: 10px;
+	background-color: #FCFCFC;;
+}
+
+.figure p {
+	margin: 0;
+}
+
+/* tables */
+table {
+	border-spacing: 1px;
+	border-collapse : separate;
+	border: none;
+}
+
+table th,
+table td {
+	border: none;
+}
+
+colgroup {
+	border: none;
+}
+
+table th {
+	border-bottom: 2px solid white;
+}
+
+tbody {
+	border: none;
+}
+
+tbody>tr:nth-child(odd) {
+	background-color: rgba(127, 127, 127, 0.5);
+}
+
+#table-of-contents,
+.outline-2 {
+	padding: 10px;
+}
+.outline-3,
+.outline-4 {
+	padding-left: 1em;
+}
+
+
+
+#table-of-contents {
+	margin-top: 295px;
+}
+
+#table-of-contents ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#table-of-contents li {
+	margin: 0 0 2px 0;
+	padding: 2px 0 2px 10px;
+	border-left: 5px solid #F55043;
+}
+
+#table-of-contents a {
+	text-decoration: none;
+}
+
+.org-ul {
+	margin: 0;
+}
+
+.outline-2:nth-child(odd) {
+	background-color: #36404B;
+	color: #F4F4F4;
+}
+.outline-2:nth-child(odd) h2 {
+	color: #65BE3E;
+}
+
+/* quotes */
+blockquote {
+	margin: 5px 0;
+	padding: 5px 5px 0 1.5em;
+	border-left: 3px solid rgba(127, 127, 127, 0.5);
+	font-size: 90%;
+}
+
+blockquote p {
+	margin: 0;
+	padding: 0;
+}
+
+code {
+	background-color: #65BE3E;
+	padding: 2px 5px;
+	border-radius: 5px;
+	color: #f4f4f4;
+	font-size: larger;
+	/* font-weight: bold; */
+}
+
+/* TODO marks */
+.todo {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: smaller;
+	padding: 2px 10px;
+	margin: 2px 0;
+	border-radius: 5px;
+}
