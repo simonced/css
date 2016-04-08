@@ -10,6 +10,13 @@ body {
 	margin: auto;
 }
 
+hr {
+	height: 0;
+	border: none;
+	border-top: 2px dotted #65BE3E;
+	margin: 2em;
+}
+
 /* responsive rules */
 /* @media screen and (max-width: 1000px) {
    #content {
