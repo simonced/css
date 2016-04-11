@@ -47,6 +47,10 @@ b {
 	color: #65BE3E;
 }
 
+dt {
+	font-weight: normal;
+}
+
 /* pics related */
 dl img,
 p img,
