@@ -128,7 +128,12 @@ tbody>tr:nth-child(odd) {
 	background-color: #36404B;
 	color: #F4F4F4;
 }
-.outline-2:nth-child(odd) h2 {
+
+.outline-2:nth-child(odd) h2, 
+.outline-2:nth-child(odd) h3, 
+.outline-2:nth-child(odd) h4, 
+.outline-2:nth-child(odd) h5, 
+.outline-2:nth-child(odd) h6 {
 	color: #65BE3E;
 }
 
