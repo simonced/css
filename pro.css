@@ -173,3 +173,14 @@ code {
 	margin: 2px 0;
 	border-radius: 5px;
 }
+
+.done {
+	background-color: #65BE3E;
+	color: white;
+	font-weight: bold;
+	font-size: smaller;
+	padding: 2px 10px;
+	margin: 2px 0;
+	border-radius: 5px;
+}
+
