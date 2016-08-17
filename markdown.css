@@ -92,6 +92,9 @@ b, strong {
 i, em {
 	color:#528645;
 }
+a {
+	text-decoration: none;
+}
 a,
 a:visited {
     color: #d33682;
@@ -100,6 +103,9 @@ a:visited {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+}
+a:visited {
+	text-shadow: 0 0 2px #d336ca;
 }
 a:hover {
     text-decoration: none;
