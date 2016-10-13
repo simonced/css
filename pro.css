@@ -163,6 +163,10 @@ code {
 	/* font-weight: bold; */
 }
 
+pre {
+	box-shadow: 3px 3px 0px rgba(238,238,238,0.50);
+}
+
 /* TODO marks */
 .todo {
 	background-color: red;
