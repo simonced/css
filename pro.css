@@ -165,6 +165,7 @@ code {
 
 pre {
 	box-shadow: 3px 3px 0px rgba(238,238,238,0.50);
+	white-space: pre-wrap;
 }
 
 /* TODO marks */
