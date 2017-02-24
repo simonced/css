@@ -106,6 +106,15 @@ tbody>tr:nth-child(odd) {
 .outline-3,
 .outline-4 {
 	padding-left: 1em;
+	border-bottom: 1px dotted #aaa;
+}
+.outline-3:last-child,
+.outline-4:last-child {
+	border-bottom: none;
+}
+
+.outline-2 {
+	border-bottom: 2px dotted #aaa;
 }
 
 #table-of-contents ul {
@@ -128,19 +137,6 @@ tbody>tr:nth-child(odd) {
 	margin: 0;
 }
 
-.outline-2:nth-child(odd) {
-	background-color: #36404B;
-	color: #F4F4F4;
-}
-
-.outline-2:nth-child(odd) h2, 
-.outline-2:nth-child(odd) h3, 
-.outline-2:nth-child(odd) h4, 
-.outline-2:nth-child(odd) h5, 
-.outline-2:nth-child(odd) h6 {
-	color: #65BE3E;
-}
-
 /* quotes */
 blockquote {
 	margin: 5px 0;
@@ -160,11 +156,12 @@ code {
 	border-radius: 5px;
 	color: #f4f4f4;
 	font-size: larger;
-	/* font-weight: bold; */
 }
 
 pre {
-	box-shadow: 3px 3px 0px rgba(238,238,238,0.50);
+	background: #1a1f25;
+	color: #f4f4f4;
+	box-shadow: 3px 3px 0 rgba(140, 140, 140, 0.50);
 	white-space: pre-wrap;
 }
 
