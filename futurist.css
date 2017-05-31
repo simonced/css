@@ -1,0 +1,163 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	background: #263747;
+	color: #798692;
+	font-family: sans-serif;
+	font-size: 12pt;
+	line-height: 14pt;
+	letter-spacing: 1px;
+}
+
+body {
+	padding-bottom: 2em;
+}
+
+#table-of-contents ul {
+	margin-bottom: 0;
+}
+
+#table-of-contents li,
+a {
+	color: #f3ba0b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #263747;
+	background-color: #f3ba0b;
+	border-radius: 5px;
+}
+
+h1 {
+	color: white;
+	text-shadow: 0px 0px 10px #f3ba0b;
+}
+
+h2, h3, h4 {
+	color: #f3ba0b;
+	padding: 5px;
+	background-color: rgba(243,186,8, 0.2);
+}
+
+h3 {
+	background: none;
+	border-bottom: 2px dotted #f3ba0b;
+}
+
+b {
+	color: #f3ba0b;
+}
+
+p>code {
+	background-color: #f3ba0b;
+	padding: 0 5px;
+	color: black;
+}
+
+pre {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	box-shadow: none;
+}
+
+/* ================================================== */
+/* Main container */
+
+#content {
+	max-width: 900px;
+	/* border: 1px solid blue; */
+	margin: auto;
+	padding: 0 2em;
+}
+
+.onhold,
+.wip,
+.done,
+.todo {
+	color: white;
+	font-family: monospace;
+	text-shadow: -1px -1px black;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+/*
+recently, it appears that TODO are exported with "nil" in front
+is it a bug? But only in the listing, not for the headers...
+*/
+.TODO,
+.nilTODO {
+	background-color: #FF613A;
+}
+
+.ONHOLD,
+.nilONHOLD {
+	background-color: #3AC8FF;
+}
+
+.WIP,
+.nilWIP {
+	background-color: #FFB03A;
+}
+
+.DONE,
+.nilDONE {
+	background-color: #51DB32;
+}
+
+.tag {
+	background: none;
+}
+.tag span {
+	padding: 2px 5px;
+	background-color: black;
+	color: white;
+	font-size: initial;
+}
+
+/* ================================================== */
+/* Table of content */
+
+#table-of-contents {
+	margin: 0 0 1em 0;
+	padding: 1em;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+#table-of-contents h2 {
+	margin: 0;
+}
+
+#table-of-contents li {
+	margin: 5px 0;
+	padding: 2px 0;
+	display: block;
+	clear: both;
+}
+
+#table-of-contents li li:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#table-of-contents .tag {
+	float: right;
+}
+
+/* ================================================== */
+/* quotes */
+
+blockquote {
+	margin: 0;
+	padding: 0 1em 0 1em;
+	border-left: 5px solid #f3ba0b;
+}
+
+blockquote p {
+	margin: 0;
+	padding: 0.5em 0;
+	color: #ccc;
+}
