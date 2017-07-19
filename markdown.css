@@ -209,6 +209,8 @@ sup {
 .done {
 	font-family: monospace;
 }
+
+.todo.ONHOLD,
 .todo.WIP {
 	color: orange;
 }
