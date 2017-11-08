@@ -163,6 +163,7 @@ pre {
 	color: #f4f4f4;
 	box-shadow: 3px 3px 0 rgba(140, 140, 140, 0.50);
 	white-space: pre-wrap;
+	display: inline-block;
 }
 
 /* TODO marks */
