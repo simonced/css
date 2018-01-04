@@ -329,3 +329,41 @@ h1.title {
 .org-variable-name {
 	color: #61A09B;
 }
+
+/* Bootstrap like alert blocks */
+.INFO,
+.WARNING,
+.DANGER {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	background: gray;
+	border-left-width: 4px;
+}
+
+.INFO p,
+.WARNING p,
+.DANGER p {
+	margin: 0 0 16px 0;
+}
+
+.INFO p:last-child,
+.WARNING p:last-child,
+.DANGER p:last-child {
+	margin-bottom: 0;
+}
+
+.INFO {
+	background-color: #DAF3F5;
+    border-color: #85D6DE;
+}
+
+.WARNING {
+	background-color: #FFF2D8;
+    border-color: #FED37F;
+}
+
+.DANGER {
+	background-color: #FACBCD;
+    border-color: #ED5258;
+}
